@@ -1,0 +1,20 @@
+{
+  "game": {
+    "buy_card": "Buy Card",
+    "buy_1_card": "Buy 1 Card",
+    "buy_2_cards": "Buy 2 Cards",
+    "prize_pool": "Prize Pool",
+    "drawn_balls": "Drawn Balls",
+    "next_round": "Next Round",
+    "active": "Active",
+    "called_numbers": "Called Numbers",
+    "claim_bingo": "Claim BINGO!",
+    "winner": "WINNER",
+    "balance": "Balance",
+    "history": "History",
+    "last_3": "Last 3"
+  },
+  "common": {
+    "etb": "ETB"
+  }
+}

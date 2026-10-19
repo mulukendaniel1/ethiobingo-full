@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .glass {
+    @apply bg-white/10 backdrop-blur-lg border border-cyan-400/20;
+  }
+  .glass-card {
+    @apply rounded-2xl glass shadow-glass;
+  }
+  .glass-dark {
+    background: rgba(34, 211, 238, 0.05);
+    backdrop-filter: blur(16px);
+    border: 1px solid rgba(34, 211, 238, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+  }
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 50%, #2e1065 100%);
+  color: #e2e8f0;
+}
+
+/* Inputs & textareas */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.2);
+  color: white;
+  border-radius: 1rem;
+  padding: 0.75rem 1rem;
+  transition: all 0.2s;
+}
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: rgba(34,211,238,0.6);
+  box-shadow: 0 0 0 3px rgba(34,211,238,0.15);
+}
+
+/* Green button (now cyan-gradient) */
+.btn-green {
+  background: linear-gradient(135deg, #22d3ee, #06b6d4);
+  color: #0f172a;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  border-radius: 1rem;
+  padding: 0.75rem 1.5rem;
+  box-shadow: 0 4px 14px rgba(34, 211, 238, 0.3);
+  transition: all 0.2s;
+}
+.btn-green:hover {
+  filter: brightness(1.1);
+  transform: translateY(-1px);
+}
+.btn-green:active {
+  transform: scale(0.97);
+}
+
+/* Tables and cards overflow */
+.overflow-x-auto {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Custom scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(255,255,255,0.05);
+  border-radius: 3px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(34,211,238,0.5);
+  border-radius: 3px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(34,211,238,0.8);
+}
+
+/* Text wrapping */
+.card-content {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/* Table cell truncation */
+.table-cell-truncate {
+  max-width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 768px) {
+  .table-cell-truncate {
+    white-space: normal;
+    word-break: break-word;
+  }
+}
+
+/* Sticky table headers */
+.sticky-header thead th {
+  position: sticky;
+  top: 0;
+  background: rgba(15, 23, 42, 0.8);
+  backdrop-filter: blur(8px);
+  z-index: 10;
+}
+
+/* Shimmer animation utility */
+.animate-shimmer {
+  background-size: 200% 100%;
+  animation: shimmer 2s linear infinite;
+}
+
+@keyframes shimmer {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}

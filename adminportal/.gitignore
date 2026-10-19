@@ -1,0 +1,86 @@
+# =========================================================
+# ROOT / WORKSPACE
+# =========================================================
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Bun
+bun.lockb
+.bun/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+bun-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# =========================================================
+# ENV FILES (IMPORTANT)
+# =========================================================
+
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.env.example
+
+# =========================================================
+# BUILD OUTPUTS
+# =========================================================
+
+# Vite / Frontend
+dist/
+
+# TypeScript
+*.tsbuildinfo
+
+# Coverage
+coverage/
+
+# Temporary
+tmp/
+temp/
+
+# =========================================================
+# CACHE
+# =========================================================
+
+.cache/
+.parcel-cache/
+.eslintcache
+
+
+
+infra/*.log
+infra/*.pid
+
+# =========================================================
+# TESTS
+# =========================================================
+
+*.spec.js
+*.spec.ts
+*.test.js
+*.test.ts
+
+# =========================================================
+# MISC
+# =========================================================
+
+*.tgz
+*.zip
+*.tar.gz

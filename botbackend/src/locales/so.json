@@ -1,0 +1,267 @@
+{
+  "common": {
+    "select": "🌐 *Dooro Luqadda:*",
+    "back": "🔙 Dib u noqo",
+    "main_menu": "🏠 Menu-ka Guud",
+    "confirm": "✅ Xaqiiji",
+    "cancel": "❌ Ka jooji",
+    "coming_soon": "🚧 Dhawaatan soo socdaa!",
+    "refresh": "🔄 Cusbooneysii",
+    "yes": "✅ Haa",
+    "no": "❌ Maya",
+    "loading": "⏳ Waa la soo dejinayaa...",
+    "error_generic": "❌ Khalad ayaa dhacay. Fadlan mar kale isku day."
+  },
+  "language": {
+    "select": "🌐 *Dooro Luqadda*",
+    "changed": "✅ Luqadda waxaa loo beddelay {{lang}}.",
+    "choose": "🌐 *Dooro luqaddaada:*"
+  },
+  "balance": {
+    "title": "🤑 *Haraagaaga*",
+    "withdrawable": "Laga soo bixi karo",
+    "locked": "Hakadsan (Lacag bixinta la sugayo)",
+    "total_earned": "Wadartii aad kasbatay",
+    "total_withdrawn": "Wadartii aad bixisay",
+    "etb_balance": "🏦 *Haraaga ETB*",
+    "etb_balance_details": "💳 *Laga soo bixi karo:* {{balance}} ETB\n🏦 *Wadarta Lacagta ETB:* {{coins}} ETB\n🔒 *Hakadsan:* {{locked}} ETB\n📊 *Wadartii aad kasbatay:* {{earned}} ETB\n📤 *Wadartii aad bixisay:* {{withdrawn}} ETB"
+  },
+  "deposit": {
+  "title": "🤑 *Kuusasho Telebirr*",
+  "select_method": "Dooro habka lacag lagu bixiyo (Telebirr kaliya):",
+  "enter_amount_etb": "Geli lacagta ETB (ugu yaraan 10 ETB):",
+  "preset_amounts": "Dooro lacag:",
+  "custom_amount": "✏️ Lacag gaar ah",
+  "method_telebirr": "📲 Telebirr",
+  "method_cbebirr": "📱 CBE Birr",
+  "instructions": "📋 *Bixinta Telebirr*\n\n📲 *Loo diro:* `{{accountNumber}}`\n👤 *Magaca:* `{{accountName}}`\n\n*Lacagta:* {{amountETB}} ETB\n\nMarkaad bixiso, **nuqulka SMS kaamil ah** ee Ethio Telecom kuu soo diro ku dheji.",
+  "enter_receipt": "📲 Fadlan nuqulka SMS kaamil ah ee Ethio Telecom kuu soo diray kadib markaad lacagta bixiso ku dheji.\n\n*Tusaale:*\n`*****, waxaad ku wareejisay ETB 1000.00 ***** (2519****5131) 26/03/2026 23:44:34. Lambarkaaga wax kala iibsiga waa DCQ69QJLUQ...`",
+  "request_submitted": "✅ *Codsi Kuusasho La Soo Gudbiyey*\n\nLambarka codsiga: `{{requestId}}`\nLacagta: {{amountETB}} ETB\nLambarka wax kala iibsiga: `{{transactionId}}`\nLacagta ku jirta rasiidka: {{receiptAmount}} ETB\n\nCodsiyadaadu waa sugiayaan. Waa laguu soo sheegi doonaa marka la ansixiyo.",
+  "invalid_amount": "❌ Lacagtu waa inay ka badato 10 ETB.",
+  "method_unavailable": "❌ Habka lacag bixinta ma jiro hadda. Kaliya Telebirr ayaa la aqbalayaa.",
+  "guide_short": "❇️ Lacag waxaad ku shuban kartaa oo kaliya akoontada Telebirr iyo CBE BIRR ee la dejiyay.\n\n🚫 Kan ka baxsan soo diraa lama dhaqaajin doono 🚫\n\n👇 Dooro Telebirr ama CBE BIRR 👇",
+  "enter_custom_amount": "🤑 Lacagta aad rabto inaad ku shubato 10 ETB ka bilaab ah geli.",
+  "receipt_parse_error": "❌ Kuma guuleysan karin fasiraadda rasiidka. Fadlan soo dheji SMS-ga oo dhameystiran sida aad u heshay.",
+  "receiver_mismatch": "❌ Magaca qaataha ee ku qoran rasiidka lama mid aha kontadaada qumman. Fadlan lacagta u dir kontada saxda ah ee kor ku qoran.",
+  "duplicate_transaction": "❌ Lambarkan hawlgalka hore ayaa loo isticmaalay. Haddii aad aaminsan tahay inay tahay qalad, fadlan la xiriir taageerada.",
+  "instructions_telebirr_noamount": "📲 Ugu yaraan 10 ETB u dir koontada Telebirr, kadibna soo dheji qoraalka rasiidka SMS-ga oo dhameystiran.\n\n📞 Telefoon: `{{accountNumber}}`\n👤 Magac: `{{accountName}}`",
+  "instructions_cbebirr_noamount": "📱 Ugu yaraan 10 ETB u dir koontada CBE Birr, kadibna soo dheji qoraalka rasiidka SMS-ga oo dhameystiran.\n\n📞 Telefoon: `{{accountNumber}}`\n👤 Magac: `{{accountName}}`",
+  "amount_too_low": "❌ Qadarka rasiidkaaga waa {{amount}} ETB. Lacagta ugu yar ee la dhigo waa 10 ETB. Fadlan ugu yaraan 10 ETB dhig oo isku day mar kale.",
+  "instructions_telebirr": "1. Akoontada Telebirr ee hoos ku qoran {{amountETB}} ETB u dir\n\n📞 Telefoonka: `{{accountNumber}}`\n👤 Magaca: `{{accountName}}`\n\n2. Ka dib markaad dirto, SMS dhamaystiran ee kuu yimid nuqul ka dhigo halkan ku dheji 👇👇👇",
+  "instructions_cbebirr": "1. Akoontada CBE BIRR ee hoos ku qoran {{amountETB}} ETB u dir\n\n📞 Telefoonka: `{{accountNumber}}`\n👤 Magaca: `{{accountName}}`\n\n2. Ka dib markaad dirto, SMS dhamaystiran ee kuu yimid nuqul ka dhigo halkan ku dheji 👇👇👇",
+  "receipt_error": "🚫 Codsiga wuu fashilmay. Fadlan SMS saxda ah ee telefoonkaaga kuu yimid nuqul ka dhigo halkan ku dheji.\n\n❓Caawimaad rabto @Ethiobingosupport2 la xiriir",
+"guide": "🤑 *Sida Lacag Lagu Dheego*\n\n1️⃣ *Xaddi Dooro* – Xaddi horay loo diyaariyey dooro ama xaddi gaar ah gali (ugu yaraan 10 ETB).\n2️⃣ *Lacag Dir* – Qadarka saxda ah u dir koontada lagu tuso.\n3️⃣ *Rasiidha Dheji* – Ka dib markaad dirto, rasiidhada SMS oo dhan ee aad heshay nuqul ka dhig oo dheji.\n\n✅ Codsigaaga waxaa dib u eegi doona maamule. Marka la xaqiijiyo waad ogaan doontaa.\n\n⚠️ *Muhiim*: Had iyo jeer qadarka saxda ah kaliya dir. Rasiidhada ha bedelin."
+},
+  "withdraw": {
+  "title": "⬆️ *Ka bixi*",
+  "select_method": "Dooro habka ka bixista:",
+  "enter_amount_ETB": "Geli qaddarka (ugu yaraan 50 Birr):",
+  "custom_amount": "✏️ Qaddar gaar ah",
+  "method_cbe": "🏦 Bangiga CBE",
+  "method_abyssinia": "🏛️ Bangiga Abyssinia",
+  "method_cbebirr": "📱 CBE Birr",
+  "method_telebirr": "📲 Telebirr",
+  "minimum_amount": "❌ Ugu yaraan ka bixista waa {{min}} Birr.",
+  "zero_balance": "❌ Ma jiro lacag la bixin karo. Marka hore lacag dhig.",
+  "enter_destination": "📝 *Geli meesha la dirayo*\n\nU dir nambarka koontadaada ama taleefankaaga {{method}}:\n\nTusaale:\n- Bangi: nambarka koontada\n- CBE Birr/Telebirr: 09xxxxxxxx",
+  "request_submitted": "✅ *Codsiga ka bixista waa la diray*\n\nID codsiga: `{{requestId}}`\nQaddarka: {{amountETB}} Birr\nMeesha la dirayo: `{{destination}}`\n\nSug oggolaanshaha maamulaha. Waa lagu wargelin doonaa.",
+  "enter_custom_amount": "✏️ Geli qaddarka (ugu yaraan 50 Birr):",
+  "invalid_amount": "❌ Ugu yaraan ka bixista waa 50 Birr.",
+  "bonus_clear_block": "🔒 *Gunno Xidhan*\n\nWeli waxaad haysataa *{{locked}} ETB* gunno xidhan.\n\nCiyaar ilaa ay ka hoos marto *{{threshold}} ETB* (qiyaastii *{{remaining}} ETB* ayaa ka hadhay inaad bixiso) ka hor intaadan lacag bixin.",
+"bonus_abuse_block": "Waxaad u baahan tahay inaad ciyaarto ugu yaraan hal kulan ka hor intaadan lacag bixin karin. Si aad isla markiiba u furto lacag bixinta, dhigo wadar ahaan 200 ETB, ama dhigo 10 ETB ama ka badan oo ka ciyaar. Ilaa hadda waxaad dhigtay {{current}} ETB.",
+  "insufficient_balance": "❌ Lacag ku filan ma jirto. Waxaad haysataa: {{available}} Birr.",
+  "invalid_destination": "❌ Meesha la dirayo waa khalad. Geli nambar sax ah oo taleefan ama koonto.",
+  "invalid_phone": "❌ Nambarka taleefanka waa khalad. Geli 10 lambar oo ku bilaabma 09.",
+  "invalid_account_cbe": "❌ Koontada CBE waa khalad. Geli 10-16 lambar oo kaliya.",
+  "invalid_account_abyssinia": "❌ Koontada Abyssinia waa khalad. Geli 6-10 lambar oo kaliya.",
+  "guide": "⬆️ *Sida lacagtaada loo bixiyo*\n\n1️⃣ *Dooro habka* – Bangi ama lacagta mobilka\n2️⃣ *Geli qaddarka* – Ugu yaraan 50 Birr\n3️⃣ *Geli meesha la dirayo* – Nambarka koontada ama taleefanka\n4️⃣ *Xaqiiji* – Maamuluhu daqiiqad gudaheed waa oggolaan doonaa\n\n📌 Hubi in meesha la dirayo ay sax tahay."
+},
+  "referral": {
+    "title": "👥 *Barnaamijka Tixraaca*",
+    "your_code": "Koodhkaaga tixraaca",
+    "total_referrals": "Wadarta tixraacyada",
+    "total_earnings": "Wadarta kasbashada",
+    "your_link": "Xiriiriyahaaga tixraaca",
+    "stats": "👥 *Tirakoobka Tixraaca*\n\n🔗 Koodhka: `{{code}}`\n👥 Wadarta tixraacyada: {{count}}\n🤑 Wadarta Bonoska kasbatay: {{earnings}} ETB",
+    "recent_referrals": "📋 *Tixraacyada Dhowaan:*",
+    "share_link": "🔗 *La wadaag Xiriiriyahaaga Tixraaca as agent*\n\nSaaxiibada ku casuum as agent oo komishan ka hel!\n\nXiriiriyahaaga:\n`{{link}}`",
+    "how_it_works": "📖 *Sida ay u shaqeysaa:* Marka uu isticmaale ku soo biiro xiriiriyahaaga, waxaad heleysaa bonos *{{bonus}} ETB*.",
+    "joined_on": "Ku biiray"
+  },
+  "settings": {
+    "title": "⚙️ *Dejinta*",
+    "referral_info": "👥 *Nidaamka Tixraaca:*\n• Koodhka: `{{code}}`\n• Tixraacyada: {{count}} isticmaale\n• Dakhliga: ${{earnings}}\n\n🔗 *Xiriiriyahaaga Tixraaca:*\n`{{link}}`",
+    "language": "🇪🇹 Luqad",
+    "back": "🔙 Dib u noqo",
+    "message": "⚙️ *Dejinta*\n\n👥 *Nidaamka Tixraaca:*\n• Koodhka: `{{code}}`\n• Tixraacyada: {{referrals}} isticmaale\n• Dakhliga: ${{earnings}}\n\n🔗 *Xiriiriyahaaga Tixraaca:*\n`{{link}}`",
+    "etb_info": "\n🏦 *Lacagta ETB:* {{coins}} (≈ {{value}} ETB)"
+  },
+  "errors": {
+    "user_not_found": "❌ Isticmaale lama helin. Fadlan /start isticmaal.",
+    "session_expired": "❌ Fadhi wuu dhacay. Fadlan mar kale bilow.",
+    "invalid_amount": "❌ Xaddi khaldan. Fadlan lambar sax ah gali.",
+    "insufficient_balance": "❌ Haraagaaga kuma filna. Waxaad haysataa {{available}}.",
+    "general": "❌ Khalad ayaa dhacay. Fadlan mar kale isku day.",
+    "admin_access": "❌ Helitaanka maamulaha ayaa loo baahan yahay.",
+    "banned": "❌ Xisaabta waa la mamnuucay. Sababta: {{reason}}",
+    "bot_paused": "⏸️ Bot-ka waa la joojiyay dayactir. Fadlan goor dambe isku day.",
+    "rate_limit": "⏳ Xadka codsiyada waa la dhaafay. Fadlan sug {{seconds}} ilbiriqsi.\nCodsiyada waxay dib u bilaabmi doonaan: {{resetTime}}",
+    "phone_required": "📱 *Lambarka Taleefanka ayaa loo baahan yahay*\n\nSi aad u isticmaasho bot-kan, fadlan lambarka taleefankaaga la wadaag.\nLambarkaaga waxaa loo isticmaali doonaa oo kaliya xaqiijin iyo lacag bixin.",
+    "invalid_phone": "❌ Lambarka taleefanka waa khalad. Fadlan isticmaal batoonka si aad u wadaagto.",
+    "already_agent": "✅ Horeyba wakiil baad tahay!",
+    "pending_agent_request": "⏳ Horey codsi wakiil ayaa jira. Fadlan sug oggolaanshaha maamulaha.",
+    "agent_request_submitted": "✅ Codsiga wakiilkaaga waa la diray! Maamulaha dhawaan wuu eegi doonaa.",
+    "etb_disabled": "❌ Nidaamka ETB hadda waa la joojiyay. Fadlan goor dambe isku day.",
+    "deposit_disabled": "❌ Kuusashada lacagta waa la joojiyay si ku-meel-gaar ah. Fadlan isku day mar dambe.",
+    "withdraw_disabled": "❌ Lacag bixintu waa la joojiyay si ku-meel-gaar ah. Fadlan isku day mar dambe."
+  },
+  "success": {
+    "settings_updated": "✅ Dejinta si guul leh ayaa loo cusbooneysiiyey!",
+    "request_submitted": "✅ Codsiga si guul leh ayaa loo diray!",
+    "balance_updated": "✅ Haraaga si guul leh ayaa loo cusbooneysiiyey!",
+    "phone_saved": "✅ *Lambarka Taleefanka Waa la Kaydiyey!*\n\nSoo dhawoow, {{name}}!",
+    "language_changed": "✅ Luqadda waxaa loo beddelay {{lang}}."
+  },
+  "agent": {
+    "become_agent": "👤 *Noqo Wakiil*\n\nSida wakiil, waxaad ka heleysaa komishan isticmaalayaasha aad tixraacday markay keyd sameeyaan.\n\n• 5% komishan keyd kasta oo ay sameeyaan tixraacyadaada\n\nDiyaar ma u tahay inaad wakiil noqoto?",
+    "request_submitted": "✅ Codsiga wakiilkaaga waa la diray! Maamulaha dhawaan wuu eegi doonaa.",
+    "already_agent": "✅ Horeyba wakiil baad tahay!",
+    "pending_request": "⏳ Horey codsi wakiil ayaa jira. Fadlan sug oggolaanshaha maamulaha."
+  },
+  "buttons": {
+    "play_games": "🚀 Ciyaar",
+    "balance": "🤑 Haraaga",
+    "deposit": "⬇️ Keyd",
+    "withdraw": "⬆️ Lacag Kadhig",
+    "language": "🇪🇹 Luqad",
+    "referral": "👥 Tixraac",
+    "be_agent": "👤 Wakiil noqo",
+    "help": "🆘 Caawi",
+    "admin": "♦️ Maamul",
+    "settings": "⚙️ Dejinta",
+    "back": "🔙 Dib u noqo",
+    "main_menu": "🏠 Menu-ka Guud",
+    "confirm": "✅ Xaqiiji",
+    "cancel": "❌ Ka jooji",
+    "share": "🔗 La wadaag",
+    "stats": "📊 Tirakoob",
+    "my_referrals": "👥 Tixraacyadayda",
+    "earnings": "🤑 Dakhliga",
+    "transactions": "📜 Macaamilka",
+    "earn_more": "📈 Ka hel wax dheeri ah",
+    "pending_requests": "⏳ Codsiyada la sugayo",
+    "refresh": "🔄 Cusbooneysii",
+    "close": "❌ Xidh",
+    "share_phone": "La Wadaag Lambarka Taleefanka",
+    "etb_balance": "🏦 Haraaga ETB",
+    "deposit_etb": "🤑 Keyd ETB",
+    "withdraw_etb": "⬆️ Kadhig ETB",
+    "etb_coins": "🏦 Lacagta ETB",
+    "referral_stats": "👥 Tirakoobka Tixraaca"
+  },
+  "help": {
+    "main": "🆘 *Xarunta Caawimaadda*\n\nDooro mawduuc si aad u hesho macluumaad faahfaahsan:\n\n❇️ *Sida loo Ciyaaro*\n🤑 *Lacag bixinta & Abaalmarinnada*\n👥 *Barnaamijka Tixraaca*\n📡 *Shuruudaha Farsamada*\n🔒 *Caddaaladda Ciyaarta & Amniga*\n📞 *La Xidhiidh Taageero*\n📢 *Wararka Mashruuca*",
+    "how_to_play": "❇️ *Sida loo Ciyaaro Bingo*\n\n**Bilaw:**\n1. Guji \"❇️ Ciyaar\" si aad u furto app-ka web-ka Bingo.\n2. Waxaad heli doontaa kaar Bingo 5x5 oo gaar ah (lambarro 1–75).\n3. Lambar cusub ayaa la soo saarayaa 3–5 ilbiriqsi kasta.\n\n**Calaamadaynta Lambarrada:**\n• Taabo lambarka kaararkaaga haddii uu la mid yahay kubbadda la soo saaray.\n• Lambarrada si toos ah ayaa loo hubiyaa, laakiin waxaad taabban kartaa si aad u xaqiijiso.\n\n**Guulaysasho:**\n• Dhamaystir saf, tiir, jiingado, ama afar geesood (iyadoo ku xiran nooca ciyaarta).\n• Markaad guulaysato, isla markiiba guji batoonka \"BINGO!\".\n• Server-ku wuxuu xaqiijinayaa guushaada; haddii ay sax tahay, waxaad helaysaa abaalmarinta.\n\n**Muhiim:**\n• Waxaad ciyaari kartaa wareegyo badan.\n• Haddii aad go'do, horumarkaaga waa la keydiyaa; kaliya dib u fur ciyaarta.",
+    "payouts": "🤑 *Lacag bixinta & Abaalmarinnada*\n\n**Kaydka Abaalmarinta:**\n• Kaydka abaalmarinta wuxuu ka yimaadaa lacagaha gelitaanka ama maalgelinta hawlwadeenka.\n• Komishan go'an (tusaale 3%) ayaa laga jaraa wareeg kasta.\n• Qadarka soo hadhay waxaa la siiyaa guulaystaha(yada).\n\n**Xisaabinta Lacag bixinta:**\n• Bingo Caadi ah: Bingo koowaad ee saxda ah ayaa ku guulaysta dhammaan kaydka.\n• Ciyaaraha Qaabka: Guulaystayaal badan ayaa si siman u qaybsanaya kaydka.\n\n**Xawaaraha Lacag bixinta:**\n• Lacagta guusha waxaa lagu shubayaa haraagaaga isla markiiba ka dib xaqiijinta.\n• Waxaad ka bixin kartaa bot-ka iyadoo la isticmaalayo hababka la heli karo.\n\n**Lacag bixinta ugu yar:**\n• Hubi qaybta haraaga bot-ka si aad u hesho xadka hadda jira.",
+    "referral": "👥 *Barnaamijka Tixraaca*\n\n**Sida ay u shaqeyso:**\n• La wadaag xiriiriyahaaga tixraaca ee gaarka ah asxaabtaada.\n• Markay ku biiraan oo ay ciyaaraan, waxaad ka heleysaa komishan.\n\n**Qaabka Komishanka:**\n• Heerka 1 (tixraacyada tooska ah): 10% dakhligooda ciyaaraha saafiga ah\n• Heerka 2: 5% dakhliga ciyaaraha tixraacyadooda\n• Heerka 3: 2% tixraacyada dheeri ah\n\n**Dabagalka:**\n• Isticmaal /settings si aad u aragto tirakoobka tixraacaaga.\n• Xiriiriyahaaga: `https://t.me/ethio_bingoobot?start=ref_YOURCODE`\n\n**Talo:** La wadaag xiriiriyahaaga baraha bulshada, madabeesyada, ama asxaabtaada si aad u kordhiso dakhligaaga!",
+    "technical": "📡 *Shuruudaha Farsamada*\n\n**Khibradda Ugu Wanaagsan:**\n• Isku xirka internetka oo deggan (3G/4G/Wi-Fi)\n• Browsar la cusbooneysiiyay (Chrome, Safari, Firefox, ama browser-ka Telegram-ka ku dhex dhisan)\n• JavaScript firfircooni\n\n**Haddii aad go’do:**\n• Ciyaartu waxay xasuusanaysaa kaarkaaga iyo lambarrada aad calaamaysay.\n• Kaliya dib u fur ciyaarta – waxaad ku soo biiri doontaa wareegga hadda socda.\n• Haddii aad seegto dhowr lambar, weli waad guulaysan kartaa (laakiin way adkaanaysaa).\n\n**Isticmaalka Xogta:**\n• Yar; qiyaastii 10–20 MB saacaddii.",
+    "fairness": "🔒 *Caddaaladda Ciyaarta & Amniga*\n\n**Caddaalad la Xaqiijin Karo:**\n• Dhammaan kubbadaha la soo saaray waxaa hore loo sii habeeyey iyadoo la isticmaalayo hash-ka xisaabeed (HMAC-SHA256).\n• Wareeg kasta ka dib, waxaad xaqiijin kartaa natiijada sirta server-ka.\n\n**Tallaabooyinka Kahortagga Khiyaanada:**\n• Dhammaan hubinta guusha waxaa sameeya server-ka dhinaciisa.\n• Kaarkaaga si ammaan ah ayaa loo keydiyaa; waxba kama beddeli kartid.\n• Markaad sheegto BINGO, server-ku wuxuu xaqiijinayaa kaarkaaga marka la barbardhigo lambarrada la soo saaray.\n\n**Abuurka Kaararka aan tooska ahayn:**\n• Kaararku waxay raacaan qaybinta Bingo-ga caadiga ah (tusaale tiirka 1: 1-15, iwm).\n• Kaar kastaa wuxuu leeyahay fursad isku mid ah oo guulaysasho.\n\n**Amniga:**\n• Haraagaaga iyo xogtaaga gaarka ah waa la sireeyay.\n• Tookinnada fadhigu waxay dhacaan si joogto ah.",
+    "support": "📞 *La Xidhiidh Taageero*\n\nCaawimaad u baahan tahay? Kooxdeennu waxay diyaar u tahay inay kaa caawiso.\n\n**Taageerada Telegram:** {{support_link}}\n**Waqtiga Jawaabta:** Caadi ahaan 1–2 saacadood\n**Waqtiyada:** 9 subaxnimo – 6 galabnimo UTC, Isniin–Jimco\n\n**Markaad la xidhiidho taageerada, fadlan ku dar:**\n• ID-ga Telegram-kaaga (waxaad ka arki doontaa fariinta soo dhawoow ee /start)\n• Sharaxaad cad ee dhibaatada\n• Qaadasho ama duubis shaashad haddii ay jirto\n\nWaxaan kugu soo noqon doonnaa sida ugu dhakhsaha badan.",
+  "news": "📢 *Wararka Mashruuca*\n\nKusii soco horumarka ugu dambeeyay:\n\n• Astaamo cusub oo ciyaareed iyo horumarinno\n• Jadwal dayactir iyo ogeysiisyo joojin\n• Dhacdooyin gaar ah, bonosyo, iyo xayeysiisyo\n• Isbeddello muhiim ah oo siyaasad ah\n\n**Ku biir channel-keena rasmiga ah:** {{channel_link}}\n\nWaxaad ka heleysaa ogeysiisyo toos ah Telegram-ka.",
+    "available_commands": "📚 *Amarada La Heli Kara*\n\n• /start - Isdiiwaangeli / Soo gal\n• /balance - Hubi haraagaaga\n• /menu - Muuji menu-ka guud\n• /ping - Tijaabi jawaabta bot-ka\n• /help - Fariintan\n\n📱 *Astaamaha Muhiimka ah:*\n• Ka hel ETB hawshii la dhammeeyey\n• Waqti haynta 1-saac\n• Lacag bixinta ugu yar: $0.50\n• Lacag bixinta TRON (TRX)",
+    "unhandled_message": "🤔 Waxaan fahmay qoraalka, laakiin ficillada fadlan isticmaal batoonada ama amarada.\n\nTijaabi /menu si aad u aragto ikhtiyaarrada.",
+    "buttons": {
+    "how_to_play": "❇️ Sida loo Ciyaaro",
+    "payouts": "🤑 Lacag bixinta & Abaalmarinnada",
+    "referral": "👥 Barnaamijka Tixraaca",
+    "technical": "📡 Shuruudaha Farsamada",
+    "fairness": "🔒 Caddaaladda Ciyaarta & Amniga",
+    "support": "📞 La Xidhiidh Taageero",
+    "news": "📢 Wararka Mashruuca",
+    "how_it_works": "❓ Sida ay u shaqeyso",
+    "contact_support": "📞 La Xidhiidh Taageero"
+  },
+  "support_short": "🆘 *Caawimaad u baahan tahay?*\n\nIsticmaal batoonada hoose ama amarada:\n\n• /start - Isdiiwaangeli / Soo gal\n\nArrimaha degdega ah, la xidhiidh {{support_link}}"
+  },
+  "start": {
+    "welcome_new": "🎉 *Ku soo dhawoow {{botName}}, {{name}}!*\n\nAnigu waxaan ahay kaaliyaha isdiiwaangelinta tooska ah.\n\n📋 *Sida ay u shaqeyso:*\n1. Ka hel faahfaahinta xisaabta aniga\n2. Isdiiwaangeli bogga bartilmaameedka\n3. Soo gudbi dhammaystirka\n4. Ka dib 1 saac la bixiyo\n\n🤑 *Dakhliga:*\n• Xisaab kasta: $0.16\n• Komishan: 20%\n• Lacag bixinta ugu yar: $0.50\n\n👥 *Barnaamijka Tixraaca:*\nLa wadaag koodhkaaga oo ka hel 10% dakhliga tixraacyadaaga!\nKoodhkaaga: `{{code}}`\n\n🔷 *Diyaar ma u tahay inaad bilowdo?* Isticmaal /register ama guji batoonka hoose!",
+    "welcome_back": "👋 *Ku soo dhawoow, {{name}}!*\n\nHaraagaaga hadda: *{{balance}} ETB*\n\nDiyaar ma u tahay inaad hesho wax dheeri ah? Isticmaal /register si aad u hesho xisaab cusub!",
+    "welcome_back_admin": "♦️ *Ku soo dhawoow Maamulaha {{name}}!*",
+    "welcome_back_subscribed": "❇️ *Ku soo dhawoow, {{name}}!*",
+    "welcome_with_subscription": "🎉 *Ku soo dhawoow {{botName}}, {{name}}!*\n\nWaan ku faraxsanahay!\n\n🔔 Si aad u furto dhammaan astaamaha oo aad ula socoto, fadlan ku biir channel-keena: @{{channel}}",
+    "phone_request": "📱 *Lambarka Taleefanka ayaa loo baahan yahay*\n\nSi aad u isticmaasho bot-kan, fadlan la wadaag lambarka taleefankaaga adoo gujinaya batoonka hoose.\n\nLambarkaaga waxaa loo isticmaali doonaa oo kaliya xaqiijin iyo lacag bixin."
+  },
+  "menu": {
+    "main": "🏠 *Menu-ka Guud*\n\nHello {{name}}!\n\n🤑 **Tirakoobkaaga:**\n• Laga soo bixi karo: *{{balance}} ETB*\n• Haraaga guud: *{{coins}} ETB*\n• Wadarta kasbatay: *{{earned}} ETB*\n\nIsticmaal batoonada hoose ama amarada menu-ka →",
+    "menu_layout": "Habka menu-ka: **{{layout}}**",
+    "expanded": "La Balaadhiyey",
+    "compact": "La Cimriyey"
+  },
+  "play": {
+  "message": "🟢 Hoos guji si aad u ciyaarto Bingo!",
+  "message_fallback": "🟢 Guji linkiga si aad u ciyaarto Bingo (wuxuu ku furmayaa browser-ka):",
+  "button_web_app": "🔷 Fur si aad u ciyaarto",
+  "button_url": "🔷 Fur si aad u ciyaarto",
+  "error_no_url": "❌ URL-ka ciyaarta lama qaabayn. Fadlan qaabi FRONTEND_URL ee .env.",
+  "error_no_secret": "❌ Adeegga ciyaarta si khaldan ayaa loo qaabay (JWT sir ah ayaa maqan). La xidhiidh taageerada.",
+  "error_generic": "❌ Khalad lama filaan ah ayaa dhacay. Fadlan mar kale isku day."
+},
+  "system": {
+    "maintenance": "🔧 *Dayactirka Nidaamka*\n\nNidaamka ayaa dayactir ku jira.\nWaqtiga la filayo: {{duration}}\n\nDhammaan shaqooyinka hakadsan waxaa la wada qaban doonaa ka dib dayactirka.\nMahadsanid adkeysigaaga!",
+    "update": "🔄 *Cusbooneysiinta Nidaamka*\n\nNooca: {{version}}\n\n📋 *Isbeddellada:*\n{{changes}}\n\nDhammaan nidaamyadu hadda waa shaqeynayaan.",
+    "daily_summary": "📊 *Koobida Maalinlaha ah*\n\n📅 Taariikhda: {{date}}\n🤑 Dakhliga Maanta: *{{earnings}} ETB*\n📈 Haraaga Guud: *{{balance}} ETB*\n✅ Shaqooyinka Dhammaystiran: {{jobs}}\n🎯 Heerka Guusha: {{rate}}%\n\nSi wanaagsan u sii wad! 🔷",
+    "referral_earned": "👥 *Dakhliga Tixraaca!*\n\nIsticmaale: {{name}}\nHeerka: {{level}}\nQadarka: *{{amount}} ETB*\n\nWaxaad ka heshay komishan dhaqdhaqaaqa tixraacaaga!"
+  },
+  "rate_limit": {
+    "exceeded": "⏳ Xadka codsiyada waa la dhaafay. Fadlan sug {{seconds}} ilbiriqsi.\nCodsiyada waxay dib u bilaabmi doonaan: {{resetTime}}"
+  },
+  "auth": {
+    "register_first": "❌ Fadlan isticmaal /start marka hore.",
+    "banned": "❌ Xisaabta waa la mamnuucay. Sababta: {{reason}}",
+    "bot_paused": "⏸️ Bot-ka waa la joojiyay dayactir. Fadlan goor dambe isku day.",
+    "admin_required": "❌ Helitaanka maamulaha ayaa loo baahan yahay"
+  },
+  "ETB": {
+    "balance": "🏦 *Haraaga ETB*\n\n💳 *Laga soo bixi karo:* {{balance}} ETB\n🏦 *Wadarta Lacagta ETB:* {{coins}} ETB\n🔒 *Hakadsan (Lacag bixinta la sugayo):* {{locked}} ETB\n📊 *Wadarta kasbatay:* {{earned}} ETB\n📤 *Wadarta bixisay:* {{withdrawn}} ETB\n\n🎯 *Sida aad u hesho wax dheeri ah:*\n• Ku biir sidii wakiil si aad u hesho abaalmarino nolol dhan\n• Casuum saaxiibo oo ka hel 10 ETB\n• Ka qaybgal xayeysiisyada",
+    "transactions": "📜 *Macaamilka ETB ee Dhowaan*\n\n{{list}}",
+    "no_transactions": "Weli macaamil ma jiraan.",
+    "transaction_item": "{{emoji}} *{{amount}} ETB* - {{type}}\n   {{date}} - {{notes}}",
+    "pending_requests": "⏳ *Codsiyadaaga ETB ee La Sugayo*\n\n{{list}}",
+    "no_pending": "Codsiyo la sugayo ma jiraan.",
+    "transactions_title": "📜 *Macaamilka ETB ee Dhowaan*",
+    "no_description": "Sharax ma jiro",
+    "pending_requests_title": "⏳ *Codsiyadaaga ETB ee La Sugayo*",
+    "deposits_header": "Keydka:",
+    "withdrawals_header": "Lacag kadhiga:",
+    "deposit_item": "{{emoji}} `{{id}}...`: {{amount}} ETB ({{status}})",
+    "withdrawal_item": "{{emoji}} `{{id}}...`: {{amount}} ETB ({{status}})",
+    "earn_more": "📈 *Sida loo Helo Lacagta ETB*\n\n🎯 *Siyaabaha lagu kasbado:*\n\n1. **Dhamaystir Hawlaha:** {{reward}} ETB hawshii la dhammeeyey\n2. **Bonoska Tixraaca:** 10% dakhliga ETB ee tixraacyadaada\n3. **Xayeysiisyada:** Dhacdooyin bonos oo gaar ah\n4. **Abaalmarinnada Daacadnimada:** Bonosyo isticmaale firfircoon\n\n💡 *Talooyin:*\n• Dhamaystir hawlo badan si aad u hesho ETB dheeri ah\n• Casuum asxaab si aad u hesho bonosyo dheeri ah\n• Si joogto ah u laabo xayeysiisyada\n\n🛒 *Isticmaalka Mustaqbalka:*\nLacagta ETB waxaa loo isticmaali doonaa iibsashada madasha e-commerce-keena!"
+  },
+  "notification": {
+    "deposit_confirmed": "✅ *Deebaajit La Xaqiijiyey!*\n\nDeebaajitkaaga {{amount}} ETB si toos ah ayaa loo xaqiijiyey oo hadiyadaha lagu daray.\n\nLambarka Codsiga: `{{id}}`",
+  "deposit_pending": "⏳ *Codsiga Deebaajit La Gudbiyey*\n\nDeebaajitkaaga {{amount}} ETB wuxuu sugayaa dib‑u‑eegis maamul. Waa lagu soo wargelin doonaa marka la xaqiijiyo.\n\nLambarka Codsiga: `{{id}}`\nLambarka Macaamilka: `{{txId}}`",
+    "deposit_rejected": "❌ *Keydka Waa la Diiday*\n\nCodsiga keydkaaga waa la diiday.\n\nSababta: {{reason}}\n\nID Codsiga: `{{id}}`",
+    "withdrawal_processed": "✅ *Lacag Kadhiga Waa la Habaystay!*\n\nLacag kadhigaaga {{amount}} ETB waa la habaystay.\n\nID Codsiga: `{{id}}`",
+    "withdrawal_rejected": "❌ *Lacag Kadhiga Waa la Diiday*\n\nCodsiga lacag kadhigaaga waa la diiday.\n\nSababta: {{reason}}\n\nID Codsiga: `{{id}}`",
+    "agent_approved": "🎉 *Codsiga Wakiilka Waa la Oggolaaday!*\n\nWaan ku hambalyeeynayaa! Hadda waxaad tahay wakiil. Waxaad ka heleysaa komishan keydka ay sameeyaan tixraacyadaada.",
+    "referral_earned": "👥 *Gunno Tixraac!*\n\nIsticmaale cusub ayaa ku biiray isagoo adeegsanaya linkigaaga tixraaca!\n\nWaxaad ku heshay *{{amount}} ETB* gunno ah oo hal mar ah."
+  },
+  "subscription": {
+    "verify": "✅ *Rukunka Waa la Xaqiijiyey!*\n\nHadda waxaad u rukumtay channel-keena. Ku raaxayso helitaanka bot-ka oo dhan!",
+    "verify_failed": "❌ *Rukun ayaa loo baahan yahay*\n\nSi aad u isticmaasho astaantan, waa inaad ku biirto channel-keena.\n\nFadlan ku biir: @{{channel}}",
+    "why": "🔔 *Maxaan u Rukumo?*\n\nAdoo u rukumaya channel-keena, waxaad ka heleysaa:\n\n• Ogeysiisyo degdeg ah oo ku saabsan astaamaha cusub\n• Fursado bonos ah iyo xayeysiisyo\n• Cusbooneysiino muhiim ah iyo ogeysiisyo\n• Taageero horudhac ah\n\nWaxay u baahan tahay hal gujin oo keliya, waadna ka bixi kartaa mar kasta.",
+    "dismiss": "Waan fahmay!",
+    "suggest": "🔔 *Talo Degdeg ah:* Ku biir channel-keena si aad u hesho cusbooneysiino iyo bonosyo!",
+    "suggest_button": "🔔 Rukumo"
+  },
+  "game": {
+    "paused_title": "Ciyaarta La Joojiyey",
+    "paused_message": "Ciyaarta hadda waa la dayactiraa. Fadlan hadhow isku day.",
+    "resumed_title": "Ciyaarta La Siidaayey",
+    "resumed_message": "Ciyaartu way soo noqotay! Hadda waad ciyaari kartaa."
+  },
+  "broadcast": {
+      "schedule": "⏰ *Baahista Jadwalka*\n\nFadlan taariikhda iyo wakhtiga aad rabto in baahintan la diro geli.\n\nQaabka: `YYYY-MM-DD HH:MM` (24-saac)\nTusaale: `2026-03-25 14:30`\n\nAma wakhti qaraabo ah: `2 saac gudahood`, `berri 10am`\n\nSi aad u baajiso \"baaji\" soo dir."
+    }
+  
+}

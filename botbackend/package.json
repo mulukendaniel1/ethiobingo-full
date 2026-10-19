@@ -1,0 +1,70 @@
+{
+  "name": "ethio_bingoobot",
+  "version": "2.0.0",
+  "description": "Manual account registration bot with TRON payouts",
+  "type": "module",
+  "scripts": {
+    "start": "NODE_ENV=production node dist/index.js",
+    "dev": "bun --watch src/index.ts",
+    "build": "bun build src/index.ts --outdir dist --target node --external mongodb --external ioredis --external mongoose --external telegram --external axios --external cron",
+    "test": "bun test --timeout 30000",
+    "type-check": "tsc --noEmit",
+    "lint": "eslint src --ext .ts --fix",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "docker:build": "docker build -t ethio_bingoobot .",
+    "docker:run": "docker-compose up -d",
+    "docker:stop": "docker-compose down",
+    "production": "bun run build && bun run start",
+    "dev:watch": "bun run build && bun --watch src/index.ts",
+    "setup-keyboards": "bun run scripts/setupBotkeyboards.ts",
+    "etm:stats": "bun run scripts/etmStats.ts",
+    "etm:reset": "bun run scripts/resetETM.ts --confirm"
+  },
+  "dependencies": {
+    "@grammyjs/auto-retry": "^2.0.2",
+    "@grammyjs/storage-mongodb": "^2.5.1",
+    "@types/cookie-parser": "^1.4.10",
+    "axios": "^1.13.6",
+    "bcryptjs": "^2.4.3",
+    "bs58": "^6.0.0",
+    "bullmq": "^5.1.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "cron": "^3.1.0",
+    "dotenv": "^16.4.0",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.3.2",
+    "googleapis": "^171.4.0",
+    "grammy": "^1.20.0",
+    "ioredis": "^5.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^8.2.0",
+    "nanoid": "^5.0.7",
+    "pino": "^9.3.0",
+    "sharp": "^0.34.5",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/bun": "latest",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.0",
+    "@types/node": "^20.11.0",
+    "@typescript-eslint/eslint-plugin": "^7.2.0",
+    "@typescript-eslint/parser": "^7.2.0",
+    "eslint": "^8.57.0",
+    "mongodb-memory-server": "^11.0.1",
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.5"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "bun": ">=1.0.0"
+  },
+  "overrides": {
+    "axios": "^1.13.5",
+    "fast-xml-parser": "^5.3.8",
+    "qs": "^6.14.2",
+    "bn.js": "^5.2.3"
+  }
+}

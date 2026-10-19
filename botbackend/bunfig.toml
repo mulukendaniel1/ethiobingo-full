@@ -1,0 +1,32 @@
+[install]
+# Don't run postinstall scripts that might fail
+ignore-scripts = true
+# Don't use frozen lockfile in production
+frozen-lockfile = false
+# Use global cache
+global-cache = true
+
+[build]
+# Build target
+target = "node"
+# External packages to exclude from bundle
+external = ["tronweb", "google-protobuf", "telegram"]
+# Don't minify to make debugging easier
+minify = false
+# Generate sourcemaps
+sourcemap = "inline"
+# Don't bundle dependencies
+bundle = false
+
+[test]
+# Test configuration
+timeout = 30000
+preload = ["./tests/setup.ts"]
+
+[run]
+# Environment files to load
+env-files = [".env"]
+
+[log]
+# Log level
+level = "info"

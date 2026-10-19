@@ -1,0 +1,9 @@
+//packages\wallet-client\tsconfig.json
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "lib": ["ESNext", "DOM"] 
+  },
+  "include": ["src/**/*"]
+}

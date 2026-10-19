@@ -1,0 +1,11 @@
+#bunfig.test.toml
+[test]
+preload = ["./tests/setup.ts"]
+timeout = 30000
+coverage = {
+  enabled = true,
+  reporter = ["text", "html", "lcov"]
+}
+
+[install]
+frozenLockfile = false

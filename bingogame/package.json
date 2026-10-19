@@ -1,0 +1,14 @@
+{
+  "name": "bingo",
+  "private": true,
+  "workspaces": ["packages/*", "apps/*"],
+  "scripts": {
+    "dev:engine": "cd apps/bingo-game-engine && bun run dev",
+    "dev:frontend": "cd apps/bingo-frontend && bun run dev"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node": "^25.2.3",
+    "typescript": "^5.0.0"
+  }
+}

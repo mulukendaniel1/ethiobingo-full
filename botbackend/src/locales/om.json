@@ -1,0 +1,267 @@
+{
+  "common": {
+    "select": "🌐 *Afaan Filadhu:*",
+    "back": "🔙 Duub-deebi’i",
+    "main_menu": "🏠 Baafata Guddaa",
+    "confirm": "✅ Mirkaneessi",
+    "cancel": "❌ Haqi",
+    "coming_soon": "🚧 Dhihootti ni argama!",
+    "refresh": "🔄 Haaromsi",
+    "yes": "✅ Eeyyee",
+    "no": "❌ Lakki",
+    "loading": "⏳ Ittiin fe’aa jira...",
+    "error_generic": "❌ Dogoggorri uumame. Maaloo irra deebi’ii yaali."
+  },
+  "language": {
+    "select": "🌐 *Afaan Filadhu*",
+    "changed": "✅ Afaan gara {{lang}} jijjiirame.",
+    "choose": "🌐 *Afaan kee filadhu:*"
+  },
+  "balance": {
+    "title": "🤑 *Haala Maallaqaa Keessanii*",
+    "withdrawable": "Kan baafamuu danda’u",
+    "locked": "Kan hidhame (Kaffaltii eegaa jira)",
+    "total_earned": "Waliigala argatte",
+    "total_withdrawn": "Waliigala baafatte",
+    "etb_balance": "🏦 *Haala Maallaqaa ETB*",
+    "etb_balance_details": "💳 *Kan baafamuu danda’u:* {{balance}} ETB\n🏦 *Waliigala Coonii ETB:* {{coins}} ETB\n🔒 *Kan hidhame:* {{locked}} ETB\n📊 *Waliigala argatte:* {{earned}} ETB\n📤 *Waliigala baafatte:* {{withdrawn}} ETB"
+  },
+  "deposit": {
+  "title": "🤑 *Telebirr tiin Kuusaa*",
+  "select_method": "Mala kaffaltii fili (Telebirr qofa):",
+  "enter_amount_etb": "Baasii Birrii galchi (xiqqaan 10 Birr):",
+  "preset_amounts": "Baasiiwwan kanneen keessaa fili:",
+  "custom_amount": "✏️ Baasii ofii keessaa",
+  "method_telebirr": "📲 Telebirr",
+  "method_cbebirr": "📱 CBE Birr",
+  "instructions": "📋 *Kaffaltii Telebirr tiin Ergi*\n\n📲 *Kan itti ergu:* `{{accountNumber}}`\n👤 *Maqaa itti ergu:* `{{accountName}}`\n\n*Baasii:* {{amountETB}} Birr\n\nKaffaltii ergitee booda **SMS hunda** kan Ethio Telecom irraa argatte maxxansi.",
+  "enter_receipt": "📲 Kaffaltii ergitee booda SMS hunda kan Ethio Telecom irraa argatte maxxansi.\n\n*Fakkeenya:*\n`***** kabajamaa, Birrii 1000.00 ***** (2519****5131) jetti ergite. Lakkoofsa geejjibaa DCQ69QJLUQ...`",
+  "request_submitted": "✅ *Gaafannoon Kuusaa Ergame*\n\nLakkoofsa gaafannoo: `{{requestId}}`\nBaasii: {{amountETB}} Birr\nLakkoofsa geejjibaa: `{{transactionId}}`\nBaasii SMS keessaa: {{receiptAmount}} Birr\n\nGaafannoon kee mirkaneessaa jira. Mirkaneessee yoo xumurame ni beeksifamta.",
+  "invalid_amount": "❌ Baasiin xiqqaan 10 Birr ta'uu qaba.",
+  "method_unavailable": "❌ Mala kaffaltii kun amma hin jiru. Telebirr qofa fudhatama.",
+  "guide_short": "❇️ Qarshii galchuu kan dandeessan amma Telebirr fi CBE BIRR akkaawuntii qofa.\n\n🚫 Kana ala ergan nama hin qunnamu 🚫\n\n👇 Telebirr ykn CBE BIRR filadhaa 👇",
+  "enter_custom_amount": "🤑 Qarshii galchuu barbaaddan 10 ETB jalqabeessii galchi.",
+  "receipt_parse_error": "❌ Rasiidii kana hiikuun hin danda'amne. Maaloo SMS guutuu akkuma argattanitti maxxansaa.",
+  "receiver_mismatch": "❌ Maqaan fudhataa rasiidii irratti argamu akkaawuntii keenyaa wajjin hin walsimu. Maaloo maallaqa gara akkaawuntii sirrii agarsiifame ergaa.",
+  "duplicate_transaction": "❌ Lakkoofsi sochii maallaqaa kun duraanuu fayyadamee jira. Yoo dogoggora jettee amantaan, deeggarsa argadhaa.",
+  "instructions_telebirr_noamount": "📲 Yuuyee 10 qarshii ol Telebirr'f erganii, SMS guutuu liqsaa maxxansaa.\n\n📞 Bilbila: `{{accountNumber}}`\n👤 Maqaa: `{{accountName}}`",
+  "instructions_cbebirr_noamount": "📱 Yuuyee 10 qarshii ol CBE Birr'f erganii, SMS guutuu liqsaa maxxansaa.\n\n📞 Bilbila: `{{accountNumber}}`\n👤 Maqaa: `{{accountName}}`",
+  "amount_too_low": "❌ Maallaqni liqsaa keessan {{amount}} ETB dha. Qarshii buusaa gadi aanaa 10 ETB dha. Maaloo yoo xuqqate 10 ETB kaa'aa fi irra deebi'aa.",
+  "instructions_telebirr": "1. Gadii jiru Telebirr akkaawuntii keessatti {{amountETB}} ETB galchi\n\n📞 Bilbilaa: `{{accountNumber}}`\n👤 Maqaa: `{{accountName}}`\n\n2. Erga ergitanii booda, SMS galmaan dhufe guutuu maxxansii asitti galchaa 👇👇👇",
+  "instructions_cbebirr": "1. Gadii jiru CBE BIRR akkaawuntii keessatti {{amountETB}} ETB galchi\n\n📞 Bilbilaa: `{{accountNumber}}`\n👤 Maqaa: `{{accountName}}`\n\n2. Erga ergitanii booda, SMS galmaan dhufe guutuu maxxansii asitti galchaa 👇👇👇",
+  "receipt_error": "🚫 Gaafannoon hin milkoofne. Maaloo bilbilaa keessan irratti dhufe SMS sirrii maxxansaa ergaa.\n\n❓Gargaarsaaf @Ethiobingosupport2 quunnamaa",
+"guide": "🤑 *Akkataa Kuusaa*\n\n1️⃣ *Baay’ina Filadhu* – Baay’ina dursee qophaa’e filadhu ykn baay’ina keessan ofii galchaa (xiqqaan 10 ETB).\n2️⃣ *Maallaqa Ergii* – Baay’ina sirriiddhaa herrega agarsiifametti ergaa.\n3️⃣ *Rasiidii Maxxansaa* – Ergaan ergamaanii booda rasiidii SMS guutuu akka argame maxxansaa.\n\n✅ Gaaffiin keessan admin irratti mirkanaa’a. Yeroo mirkanaa’u isin beeksifamtu.\n\n⚠️ *Hubachiisa*: Yeroo hunda baay’ina sirriiddhaa qofa ergaa. Rasiidii hin jijjiirinaa."
+},
+  "withdraw": {
+  "title": "⬆️ *Baafachuu*",
+  "select_method": "Maltoo baafachuu filadhaa:",
+  "enter_amount_ETB": "Baay'ina galchi (xiqqaan 50 Birr):",
+  "custom_amount": "✏️ Baay'ina ofii keessan",
+  "method_cbe": "🏦 Baankii CBE",
+  "method_abyssinia": "🏛️ Baankii Abyssinia",
+  "method_cbebirr": "📱 CBE Birr",
+  "method_telebirr": "📲 Telebirr",
+  "minimum_amount": "❌ Baay'ina xiqqaa baafachuu {{min}} Birr dha.",
+  "zero_balance": "❌ Maallaqa baafachuu hin jiru. Dura kuusadhaa.",
+  "enter_destination": "📝 *Iddoo geessuu galchi*\n\nBaay'ina herregaa ykn lakkoofsa bilbilaa keessan {{method}} bifa:\n\nFakkeenya:\n- Baankii: lakkoofsa herregaa\n- CBE Birr/Telebirr: 09xxxxxxxx",
+  "request_submitted": "✅ *Gaafannoo baafachuu ergame*\n\nID gaafannoo: `{{requestId}}`\nBaay'ina: {{amountETB}} Birr\nIddoo geessuu: `{{destination}}`\n\nEeyyamannaa admin eegaa. Itti hin beeksifamtan.",
+  "enter_custom_amount": "✏️ Baay'ina galchi (xiqqaan 50 Birr):",
+  "invalid_amount": "❌ Baay'ina xiqqaa baafachuu 50 Birr dha.",
+  "bonus_clear_block": "🔒 *Buusii Cufaa*\n\nAmmallee *{{locked}} ETB* buusii cufaa qabda.\n\nHanga *{{threshold}} ETB* gadi bu'utti taphaadhu (*{{remaining}} ETB* dabalataa baasuuf hafa) ergasii baafachuu dandeessa.",
+"bonus_abuse_block": "Maallaqa baasuuf yoo xiqqaate al tokko taphaachuu qabda. Battalumatti maallaqa baasuuf, walumaagalatti 200 ETB galchi, yookiin 10 ETB fi isaa ol galchii itti taphaadhu. Hanga ammaatti {{current}} ETB galchiteetta.",
+  "insufficient_balance": "❌ Maallaqni hin gaaru. Kan jiru: {{available}} Birr.",
+  "invalid_destination": "❌ Iddoo geessuu dogoggorsaa. Lakkoofsa bilbilaa ykn herregaa sirrii galchi.",
+  "invalid_phone": "❌ Lakkoofsi bilbilaa dogoggorsaa. 09n jalqabu 10 lakkoofsaa galchi.",
+  "invalid_account_cbe": "❌ Herregaan CBE dogoggorsaa. 10-16 lakkoofsota qofa galchi.",
+  "invalid_account_abyssinia": "❌ Herregaan Abyssinia dogoggorsaa. 6-10 lakkoofsota qofa galchi.",
+  "guide": "⬆️ *Maallaqa keessan akka baafattan*\n\n1️⃣ *Maltoo filadhaa* – Baankii ykn moobaayilii\n2️⃣ *Baay'ina galchi* – Xiqqaan 50 Birr\n3️⃣ *Iddoo geessuu galchi* – Lakkoofsa herregaa ykn bilbilaa\n4️⃣ *Mirkaneessaa* – Admin daqiiqaa keessatti eeyyama\n\n📌 Iddoo geessuu keessan sirrii ta'uu mirkaneessaa."
+},
+  "referral": {
+    "title": "👥 *Sagantaa Tumsaa*",
+    "your_code": "Koodii tumsaa kee",
+    "total_referrals": "Waliigala tumsitoota",
+    "total_earnings": "Waliigala bu'aa",
+    "your_link": "Liinkii tumsaa kee",
+    "stats": "👥 *Tilmaama Tumsaa*\n\n🔗 Koodii: `{{code}}`\n👥 Waliigala tumsitoota: {{count}}\n🤑 Waliigala Bu’aa Boonusii: {{earnings}} ETB",
+    "recent_referrals": "📋 *Tumsitoota Dhiyaatan:*",
+    "share_link": "🔗 *Liinkii Tumsaa Keessanii Qoodadhaa as agent*\n\nFiroota affeeraa as agent fi komishinii argadhu!\n\nLiinkii keessanii:\n`{{link}}`",
+    "how_it_works": "📖 *Akkamitti hojjeta:* Yeroo fayyadaan tokko liinkii keessaniin seenu, boonusii *{{bonus}} ETB* argattu.",
+    "joined_on": "Mise"
+  },
+  "settings": {
+    "title": "⚙️ *Sajoo*",
+    "referral_info": "👥 *Sirna Tumsaa:*\n• Koodii: `{{code}}`\n• Tumsitoota: {{count}} fayyadamtoota\n• Bu’aa: ${{earnings}}\n\n🔗 *Liinkii Tumsaa Keessanii:*\n`{{link}}`",
+    "language": "🇪🇹 Afaan",
+    "back": "🔙 Duub-deebi’i",
+    "message": "⚙️ *Sajoo*\n\n👥 *Sirna Tumsaa:*\n• Koodii: `{{code}}`\n• Tumsitoota: {{referrals}} fayyadamtoota\n• Bu’aa: ${{earnings}}\n\n🔗 *Liinkii Tumsaa Keessanii:*\n`{{link}}`",
+    "etb_info": "\n🏦 *Coonii ETB:* {{coins}} (≈ {{value}} ETB)"
+  },
+  "errors": {
+    "user_not_found": "❌ Fayyadaan hin argamne. Maaloo /start fayyadami.",
+    "session_expired": "❌ Yeroon darbee jira. Maaloo irra deebi’ii jalqabi.",
+    "invalid_amount": "❌ Hanga sirrii hin taane. Maaloo lakkoofsa sirrii galchi.",
+    "insufficient_balance": "❌ Maallaqni ga’aan hin jiru. Ati {{available}} qabda.",
+    "general": "❌ Dogoggorri uumameera. Maaloo irra deebi’ii yaali.",
+    "admin_access": "❌ Fayyadama abbaa imaanaa barbaachisa.",
+    "banned": "❌ Herregi dhorkame. Sababni: {{reason}}",
+    "bot_paused": "⏸️ Botiin ittifameera. Maaloo booda yaali.",
+    "rate_limit": "⏳ Daangii gaaffii ce’e. Maaloo {{seconds}} sekoondii eegi.\nGaaffiiwwan {{resetTime}}tti itti fufa.",
+    "phone_required": "📱 *Lakkoofsa Bilbilaa Barbaachisa*\n\nBotii kana fayyadamuu, maaloo lakkoofsa bilbilaa keessanii qoodadhaa.\nLakkoofsi keessanii mirkaneessaa fi kaffaltiif qofa fayyadama.",
+    "invalid_phone": "❌ Lakkoofsi bilbilaa sirrii miti. Maaloo buttoo fayyadami.",
+    "already_agent": "✅ Duraanii agent ta’eera!",
+    "pending_agent_request": "⏳ Gaaffiin agent duraan jira. Maaloo mirkaneessa abbaa imaanaa eegi.",
+    "agent_request_submitted": "✅ Gaaffiin agent keessanii dhiyaate! Abbaan imaanaa dafee ni ilaala.",
+    "etb_disabled": "❌ Sirni ETB amma haala malee dhaamameera. Maaloo booda yaali.",
+    "deposit_disabled": "❌ Kuusaan maallaqaa yeroo ammaa cufameera. Mee yeroo xinnoodhaan booda deebitee yaali.",
+    "withdraw_disabled": "❌ Baasni maallaqaa yeroo ammaa cufameera. Mee yeroo xinnoodhaan booda deebitee yaali."
+  },
+  "success": {
+    "settings_updated": "✅ Sajoon sirriitti haaromfame!",
+    "request_submitted": "✅ Gaaffiin sirriitti dhiyaate!",
+    "balance_updated": "✅ Haala maallaqaa sirriitti fooyyesse!",
+    "phone_saved": "✅ *Lakkoofsi Bilbilaa Oofame!*\n\nBaga nagaan dhufte, {{name}}!",
+    "language_changed": "✅ Afaan gara {{lang}} jijjiirame."
+  },
+  "agent": {
+    "become_agent": "👤 *Agent Ta’i*\n\nAkka agent, yeroo fayyadamtoonni siin tumsaman kuusannaa godhan komishinii argatta.\n\n• 5% komishinii kuusannaa tumsitoota keetii irraa\n\nAgent ta’uuf diyaara?",
+    "request_submitted": "✅ Gaaffiin agent keessanii dhiyaate! Abbaan imaanaa dafee ni ilaala.",
+    "already_agent": "✅ Duraanii agent ta’eera!",
+    "pending_request": "⏳ Gaaffiin agent duraan jira. Maaloo mirkaneessa abbaa imaanaa eegi."
+  },
+  "buttons": {
+    "play_games": "🚀 Taphachuu",
+    "balance": "🤑 Maallaqa",
+    "deposit": "⬇️ Kuusannaa",
+    "withdraw": "⬆️ Baafachuu",
+    "language": "🇪🇹 Afaan",
+    "referral": "👥 Tumsa",
+    "be_agent": "👤 Agent ta'i",
+    "help": "🆘 Gargaarsa",
+    "admin": "♦️ Bulchaa",
+    "settings": "⚙️ Sajoo",
+    "back": "🔙 Duub-deebi’i",
+    "main_menu": "🏠 Baafata Guddaa",
+    "confirm": "✅ Mirkaneessi",
+    "cancel": "❌ Haqi",
+    "share": "🔗 Qoodadhu",
+    "stats": "📊 Tilmaama",
+    "my_referrals": "👥 Tumsitoota Koo",
+    "earnings": "🤑 Bu’aa",
+    "transactions": "📜 Geeddaraalee",
+    "earn_more": "📈 Dabalata Argadhu",
+    "pending_requests": "⏳ Gaaffiiwwan Eegaman",
+    "refresh": "🔄 Haaromsi",
+    "close": "❌ Cufi",
+    "share_phone": "Lakkoofsa Bilbilaa Qoodadhu",
+    "etb_balance": "🏦 Haala Maallaqaa ETB",
+    "deposit_etb": "🤑 ETB Kuus",
+    "withdraw_etb": "⬆️ ETB Baafadhu",
+    "etb_coins": "🏦 Coonii ETB",
+    "referral_stats": "👥 Tilmaama Tumsaa"
+  },
+  "help": {
+    "main": "🆘 *Giddugala Gargaarsaa*\n\nOdeeffannoo dheerataaf mataduree filadhu:\n\n❇️ *Akkamitti Taphachuu*\n🤑 *Kaffaltii fi Badhaasa*\n👥 *Sagantaa Tumsaa*\n📡 *Barbaachisummaa Teekinikaalaa*\n🔒 *Qajeelfama Taphichaa fi Nageenya*\n📞 *Gargaarsa Quunnami*\n📢 *Oduu Pirojekti*",
+    "how_to_play": "❇️ *Akkamitti Bingoo Taphachuu*\n\n**Eegaluu:**\n1. “❇️ Taphachuu” cuqaasi appii weebii bingoo banuuf.\n2. Kaardii bingoo 5x5 (lakkoofsa 1–75) argatta.\n3. Lakkoofsi haaraan 3–5 sekoondii keessatti ba’a.\n\n**Lakkoofsa Mallatteessuu:**\n• Lakkoofsa kaardii kee irra jiran keessaa kan waliin ta’e cuqaasi.\n• Lakkoofsi ofiinee ni mirkanaa’a, garuu mirkaneessuuf cuqaasuu dandeessa.\n\n**Mo’achuu:**\n• Tarkaanfii, kashii, diyaagonaalii ykn rogoota afur xumuri (akkama madaa taphichaatti).\n• Yeroo mo’attu “BINGO!” buttoo yeroma san cuqaasi.\n• Serweriin mo’achuu kee mirkaneessa; yoo sirrii ta’e badhaasa argatta.\n\n**Barbaachisa:**\n• Tapha hedduu taphaa dandeessa.\n• Yoo citaa, kaardii fi mallattoon kee ni oofa; appii irra deebi’ii banii seeni.",
+    "payouts": "🤑 *Kaffaltii fi Badhaasa*\n\n**Maallaqa Badhaasaa:**\n• Maallaqni badhaasaa kaffaltii seensaa ykn maallaqa hojiittuu irraa kuufama.\n• Komishinii muraasa (fakkeenya 3%) tapha tokkoo tokkoo irraa baafama.\n• Haanqee sun mo’ataa(tota)tti kaffalama.\n\n**Herrega Kaffaltii:**\n• Bingoo Idilee: bingoo jalqabaa sirrii ta’e maallaqa guutuu mo’ata.\n• Tapha Fakkaata: mo’attoonni hedduun maallaqa walqixxumatti qoodatu.\n\n**Saffisa Kaffaltii:**\n• Maallaqi mo’annoo mirkanaa’ee booda yeroma san haala maallaqaa kee keessa galma.\n• Botii keessatti mala baafannaa fayyadamuun baafachuu dandeessa.\n\n**Baafannaa Xiqqaa:**\n• Daangii amma jiru ilaaluuf kutaa haala maallaqaa botii ilaali.",
+    "referral": "👥 *Sagantaa Tumsaa*\n\n**Akkamitti Hojjeta:**\n• Liinkii tumsaa kee firoota waliin qoodadhu.\n• Yeroo isaan seenanii taphatan komishinii argatta.\n\n**Caasaa Komishinii:**\n• Sadarkaa 1 (tumsitoota kallattii): 10% kaffaltii taphaa isaanii irraa\n• Sadarkaa 2: 5% kaffaltii taphaa tumsitoota isaanii irraa\n• Sadarkaa 3: 2% tumsitoota itti aanan irraa\n\n**Dorgommii:**\n• Tilmaama tumsaa kee ilaaluuf /settings fayyadami.\n• Liinkii kee: `https://t.me/ethio_bingoobot?start=ref_YOURCODE`\n\n**Qorsa:** Liinkii kee miidiyaa hawaasaa, fooramii ykn firoota waliin qoodadhu!",
+    "technical": "📡 *Barbaachisummaa Teekinikaalaa*\n\n**Muuxannoo Gaarii:**\n• Walqunnamtii interneetii cimaa (3G/4G/Wi-Fi)\n• Addabbistuu fooyya’e (Chrome, Safari, Firefox, ykn addabbistuu Telegram keessatti ijaarame)\n• JavaScript cufi\n\n**Yoo Cite:**\n• Tapha kaardii kee fi lakkoofsota mallatteessite ni yaadata.\n• Appii irra deebi’ii banii seeni – tapha amma jiru irra deebi’a.\n• Lakkoofsota muraasa yoo darbanillee mo’achuu dandeessa (garuu ulfaata).\n\n**Fayyadama Daataa:**\n• Xiqqaa; sa’aatti gara 10–20 MB.",
+    "fairness": "🔒 *Qajeelfama Taphichaa fi Nageenya*\n\n**Qajeelfama Mirkanaa’uu Danda’u:**\n• Ba’insi kubbaa hundi dursee hamma herregaa (HMAC-SHA256) fayyadamuun madaalama.\n• Tapha tokkoo booda bu’aa icciti serwerii waliin mirkaneessuu dandeessa.\n\n**Sagantaa Meeqaa:**\n• Mirkaneessi mo’annoo hundi cina serwerii irratti hojjeta.\n• Kaardiin kee nageenyaan ni kuufama; jijjiiruu hin dandeessu.\n• BINGO yoo jette, serweriin kaardii kee lakkoofsota ba’an waliin mirkaneessa.\n\n**Uumuu Kaardii Addeessa:**\n• Kaardiin akkaataa bingoo idilee (fakkeenya kashii 1: 1-15, etc.) hordofa.\n• Kaardii tokkoon tokkoon tokko carraa mo’achuu walfakkaataa qaba.\n\n**Nageenya:**\n• Haala maallaqaa kee fi odeeffannoo dhuunfaa kee iccitii.\n• Tokkennii saayinsii yeroo yerootti dhumu.",
+    "support": "📞 *Gargaarsa Quunnami*\n\nGargaarsa barbaaddu? Gareen keennye gargaaruu irratti qophaa’e.\n\n**Gargaarsa Telegram:** {{support_link}}\n**Yeroo Deebii:** Waan idilee ta’een 1–2 sa’aatii\n**Sa’aatii:** 9 ganama – 6 galgala UTC, Wiixata–Jimaata\n\n**Gargaarsa quunnamuu yoo barbaadde:**\n• ID Telegram kee (ergaa /start irratti argama)\n• Ibsa rakkoo ifa\n• Yoo danda’ame suuraa ykn viidiyoo\n\nDafee ni deebisina.",
+  "news": "📢 *Oduu Pirojekti*\n\nWaan haaraan wajjin walta’i:\n\n• Amaloota tapha haaraa fi fooyya’iinsa\n• Sagantaa ittisa fi beeksisa yeroo dhaabuu\n• Taateewwan addaa, boonusii fi beeksisa\n• Jijjiirraa imaammataa barbaachisaa\n\n**Chaanaalii ofishaalii keenya seeni:** {{channel_link}}\n\nBeeksisa Telegram keessatti argatta.",
+    "available_commands": "📚 *Ajajawwan Argaman*\n\n• /start - Galmeessi/Galmaa’i\n• /balance - Haala maallaqaa kee ilaali\n• /menu - Baafata guddaa agarsiisi\n• /ping - Deebii botii ilaali\n• /help - Ergaa kana\n\n📱 *Amaloota Ijoo:*\n• Tapha tokkoon ETB argadhu\n• Yeroo ittisaa 1 sa’aatii\n• Baafannaa xiqqaa: $0.50\n• Kaffaltii TRON (TRX)",
+    "unhandled_message": "🤔 Barreeffama hubadha, garuu gochootaf maaloo buttoo ykn ajaja fayyadami.\n\nFilannoo argachuuf /menu yaali.",
+     "buttons": {
+    "how_to_play": "❇️ Akkamitti Taphachuu",
+    "payouts": "🤑 Kaffaltii fi Badhaasa",
+    "referral": "👥 Sagantaa Tumsaa",
+    "technical": "📡 Barbaachisummaa Teekinikaalaa",
+    "fairness": "🔒 Qajeelfama Taphichaa fi Nageenya",
+    "support": "📞 Gargaarsa Quunnami",
+    "news": "📢 Oduu Pirojekti",
+    "how_it_works": "❓ Akkamitti Hojjeta",
+    "contact_support": "📞 Gargaarsa Quunnami"
+  },
+  "support_short": "🆘 *Gargaarsa Barbaadduu?*\n\nButtoo gadii ykn ajaja fayyadami:\n\n• /start - Galmeessi/Galmaa’i\n\nRakkoo barbaachisaa ta’eef {{support_link}} quunnami"
+  },
+  "start": {
+    "welcome_new": "🎉 *Baga {{botName}}’tti nagaan dhufte, {{name}}!*\n\nAni gargaaraa ofiineef ta’e.\n\n📋 *Akkamitti hojjeta:*\n1. Gamaaggama galmee kana irraa argadhu\n2. Buufata kaayyoo irratti galmeessi\n3. Xumura keessan ergaa\n4. 1 sa’aatii booda kaffalamtu\n\n🤑 *Bu’aa:*\n• Galmee tokkoon: $0.16\n• Komishinii: 20%\n• Baafannaa xiqqaa: $0.50\n\n👥 *Sagantaa Tumsaa:*\nKoodii keessan qoodadhaa fi 10% bu’aa tumsitoota keessanii argadhu!\nKoodii keessan: `{{code}}`\n\n🔷 *Eegaluuf diyaaraa?* /register fayyadami ykn buttoo gadii cuqaasi!",
+    "welcome_back": "👋 *Baga nagaan deebite, {{name}}!*\n\nHaala maallaqaa kee ammaa: *{{balance}} ETB*\n\nDabalata argachuuf diyaaraa? Galmee haaraa argachuuf /register fayyadami!",
+    "welcome_back_admin": "♦️ *Baga nagaan deebite Abbaa Imaanaa {{name}}!*",
+    "welcome_back_subscribed": "❇️ *Baga nagaan deebite, {{name}}!*",
+    "welcome_with_subscription": "🎉 *Baga {{botName}}’tti nagaan dhufte, {{name}}!*\n\nBaga gammaddan!\n\n🔔 Amaloota hunda banuuf fi odeeffannoo haaraa argachuuf maaloo chaanaalii keenya seeni: @{{channel}}",
+    "phone_request": "📱 *Lakkoofsa Bilbilaa Barbaachisa*\n\nBotii kana fayyadamuu, maaloo buttoo gadii cuqaasiitii lakkoofsa bilbilaa keessanii qoodadhaa.\n\nLakkoofsi keessanii mirkaneessaa fi kaffaltiif qofa fayyadama."
+  },
+  "menu": {
+    "main": "🏠 *Baafata Guddaa*\n\nAsham {{name}}!\n\n🤑 **Tilmaama Keessan:**\n• Kan baafamuu danda’u: *{{balance}} ETB*\n• Haala maallaqaa guddaa: *{{coins}} ETB*\n• Waliigala arganne: *{{earned}} ETB*\n\nButtoo gadii ykn ajaja baafata fayyadamaa →",
+    "menu_layout": "Adeemsa baafata: **{{layout}}**",
+    "expanded": "Bal’ifame",
+    "compact": "Cimdame"
+  },
+  "play": {
+  "message": "🟢 Bingoo taphaaf gadii cuqaasi!",
+  "message_fallback": "🟢 Bingoo taphaaf liinkii cuqaasi (browsariin ni bana):",
+  "button_web_app": "🔷 Taphaaf Ban",
+  "button_url": "🔷 Taphaaf Ban",
+  "error_no_url": "❌ URL taphaa hin qindeessine. Maaloo FRONTEND_URL env keessatti qindeessi.",
+  "error_no_secret": "❌ Tajaajilli taphaa sirriitti hin qindeessine (JWT icciitiin dhabame). Gargaarsa quunnami.",
+  "error_generic": "❌ Dogoggorri hin eegamne uumame. Maaloo booda yaali."
+},
+  "system": {
+    "maintenance": "🔧 *Ittisa Sirnaa*\n\nSirni ittisa jira.\nYeroo eegamu: {{duration}}\n\nHojiwwan eegaman hundi ittisa booda ni hojjetamu.\nOf eegganna keessanif galatoomaa!",
+    "update": "🔄 *Fooyya’iinsa Sirnaa*\n\nFakkii: {{version}}\n\n📋 *Jijjiirra:*\n{{changes}}\n\nSirni hundi amma hojiirra jira.",
+    "daily_summary": "📊 *Cuqaasaa Guyyaa*\n\n📅 Guyyaa: {{date}}\n🤑 Bu’aa Har’aa: *{{earnings}} ETB*\n📈 Waliigala Haala Maallaqaa: *{{balance}} ETB*\n✅ Hojiwwan Xumuraman: {{jobs}}\n🎯 Sadarkaa Milkii: {{rate}}%\n\nHaala gaariin itti fufi! 🔷",
+    "referral_earned": "👥 *Bu’aa Tumsaa!*\n\nFayyadaan: {{name}}\nSadarkaa: {{level}}\nHanga: *{{amount}} ETB*\n\nKomishinii gocha tumsitoota kee irraa argatte!"
+  },
+  "rate_limit": {
+    "exceeded": "⏳ Daangii gaaffii ce’e. Maaloo {{seconds}} sekoondii eegi.\nGaaffiiwwan {{resetTime}}tti itti fufa."
+  },
+  "auth": {
+    "register_first": "❌ Maaloo dura /start fayyadami.",
+    "banned": "❌ Herregi dhorkame. Sababni: {{reason}}",
+    "bot_paused": "⏸️ Botiin ittifameera. Maaloo booda yaali.",
+    "admin_required": "❌ Fayyadama abbaa imaanaa barbaachisa"
+  },
+  "ETB": {
+    "balance": "🏦 *Haala Maallaqaa ETB*\n\n💳 *Kan baafamuu danda’u:* {{balance}} ETB\n🏦 *Waliigala Coonii ETB:* {{coins}} ETB\n🔒 *Kan hidhame (Kaffaltii eegaa jira):* {{locked}} ETB\n📊 *Waliigala arganne:* {{earned}} ETB\n📤 *Waliigala baafatte:* {{withdrawn}} ETB\n\n🎯 *Akkamitti dabalata argachuu:*\n• Akka agent ta’iiti badhaasa jireenyaa argadhu\n• Firoota affeeraa 10 ETB argadhu\n• Beekkisa keessatti hirmaadhu",
+    "transactions": "📜 *Geeddaraalee ETB Dhiyaatan*\n\n{{list}}",
+    "no_transactions": "Geeddaraan tokko iyyuu hin jiru.",
+    "transaction_item": "{{emoji}} *{{amount}} ETB* - {{type}}\n   {{date}} - {{notes}}",
+    "pending_requests": "⏳ *Gaaffiiwwan ETB Keessan Eegaman*\n\n{{list}}",
+    "no_pending": "Gaaffiin eegaman hin jiran.",
+    "transactions_title": "📜 *Geeddaraalee ETB Dhiyaatan*",
+    "no_description": "Ibsa hin qabu",
+    "pending_requests_title": "⏳ *Gaaffiiwwan ETB Keessan Eegaman*",
+    "deposits_header": "Kuusannaa:",
+    "withdrawals_header": "Baafannaa:",
+    "deposit_item": "{{emoji}} `{{id}}...`: {{amount}} ETB ({{status}})",
+    "withdrawal_item": "{{emoji}} `{{id}}...`: {{amount}} ETB ({{status}})",
+    "earn_more": "📈 *Akkamitti Coonii ETB Argachuu*\n\n🎯 *Karaawwan Argachuu:*\n\n1. **Hojiwwan Xumuri:** {{reward}} ETB tapha tokkoo\n2. **Boonusii Tumsaa:** 10% bu’aa ETB tumsitoota kee\n3. **Beekkisa:** Taateewwan boonusii addaa\n4. **Badhaasa Amantaa:** Boonusii fayyadama jiraataa\n\n💡 *Qorsa:*\n• ETB dabalata argachuuf hojiwwan dabalata xumuri\n• Firoota affeeraan boonusii dabalata argadhu\n• Beekkisaaf yeroodhuma deebi’i\n\n🛒 *Fayyadama Fuulduraa:*\nCoonii ETB madda bilisaa keenya irratti fayyadamuuf ni oola!"
+  },
+  "notification": {
+    "deposit_confirmed": "✅ *Depoozitii Mirkanaa'aa!*\n\nDepoozitiin keessan {{amount}} ETB ofumaan mirkanaa'ee madaalliitti dabaleera.\n\nLakkoofsa Gaaffii: `{{id}}`",
+  "deposit_pending": "⏳ *Gaaffiin Depoozitii Dhiyaate*\n\nDepoozitiin {{amount}} ETB qormaata bulchiinsaa eegaa jira. Yeroo mirkanaa'u isin beeksifna.\n\nLakkoofsa Gaaffii: `{{id}}`\nLakkoofsa Tarnsaksinii: `{{txId}}`",
+    "deposit_rejected": "❌ *Kuusannaan Dide*\n\nGaaffiin kuusannaa keessanii dide.\n\nSababni: {{reason}}\n\nID Gaaffii: `{{id}}`",
+    "withdrawal_processed": "✅ *Baafannaan Raawwatame!*\n\nBaafannaan {{amount}} ETB keessanii raawwatame.\n\nID Gaaffii: `{{id}}`",
+    "withdrawal_rejected": "❌ *Baafannaan Dide*\n\nGaaffiin baafannaa keessanii dide.\n\nSababni: {{reason}}\n\nID Gaaffii: `{{id}}`",
+    "agent_approved": "🎉 *Iyyannaa Agent Mirkanaa’e!*\n\nBaga gammadde! Amma agent ta’eetta. Kuusannaa tumsitoota kee irraa komishinii argatta.",
+    "referral_earned": "👥 *Buusaa Waamicha!*\n\nFayyadamaan haaraa liinki waamicha keessanii fayyadamee seene!\n\nIsin *{{amount}} ETB* akka buusaa yeroo tokkoo argattan."
+  },
+  "subscription": {
+    "verify": "✅ *Mirkaneessi!*\n\nAmma chaanaalii keenyaaf galmeette. Fayyadama botii guutuu itti fayyadami!",
+    "verify_failed": "❌ *Galmee Barbaachisa*\n\nAmala kana fayyadamuu, chaanaalii keenya seenuu barbaachisa.\n\nMaaloo seeni: @{{channel}}",
+    "why": "🔔 *Maaliif Galmaa’uu?*\n\nChaanaalii keenya galmaanii:\n\n• Beeksisa amaloota haaraa irraa\n• Kennaa fi beeksisa faayidaa\n• Fooyya’iinsa fi beeksisa barbaachisaa\n• Gargaarsa duraa\n\nTuqa tokko qofa barbaachisa, booda bahuu dandeessa.",
+    "dismiss": "Hubadhe!",
+    "suggest": "🔔 *Qorsa Dafaa:* Fooyya’iinsa fi boonusii argachuuf chaanaalii keenya seeni!",
+    "suggest_button": "🔔 Galmeessi"
+  },
+  
+  "game": {
+    "paused_title": "Tapha Cufame",
+    "paused_message": "Tapha kun yeroo ammaa kophaaf tureera. Mee booda yaali.",
+    "resumed_title": "Tapha Fudhatame",
+    "resumed_message": "Taphan deebi'ee jira! Amma taphaa."
+  },
+  "broadcast": {
+      "schedule": "⏰ *Yeroo Baasunsaa*\n\nMaaloo guyyaa fi yeroo baasunsaa ergamuu barbaaddan galchi.\n\nAkkataa: `YYYY-MM-DD HH:MM` (sa'aatii 24)\nFakkeenya: `2026-03-25 14:30`\n\nYkn yeroo waliigalaa fayyadam: `sa'aatii 2 keessatti`, `boru 10am`\n\nHaquuf \"haqi\" ergaa."
+    }
+}

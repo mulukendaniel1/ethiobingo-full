@@ -1,0 +1,15 @@
+//apps\bingo-game-engine\tsconfig.json
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "types": ["bun-types", "@types/ioredis"],
+    "noEmit": true,                    // ✅ Bun runs TS directly
+    "baseUrl": ".",
+    "paths": {
+      "@bingogame/*": ["../../packages/*/src"]
+    }
+  },
+  "include": ["src/**/*", "test"],
+  "exclude": ["node_modules", "dist"]
+}
